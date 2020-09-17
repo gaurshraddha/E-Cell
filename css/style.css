@@ -1,0 +1,114 @@
+
+header{
+  padding: 0;
+	margin: 0;
+  background-color: #958efa;
+	text-align: center;
+  overflow: hidden;
+}
+nav {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+  background-color: #ffffff;
+}
+#navbar-nav{
+	list-style: none;
+	margin: 0;
+  padding: 0;
+	
+	/*border-top: 8vh solid #111111;
+	border-bottom: 2vh solid #111111;*/
+	text-align: center;
+}
+nav h3,h5{
+  color: #013481;
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	width: 7rem;
+	font-size: 120%;
+}
+nav li a{
+	text-decoration: none;
+  text-align: center;
+  color:#013481;
+  font-weight: bold;
+}
+nav li a:hover{
+  font-weight: normal;
+  /*border-bottom: 5px solid #013481;*/
+}
+.navbar-toggler-icon{
+    color-interpolation-filters: auto!important;
+    color:black;
+}
+.navbar-toggler{
+    color: black!important;
+}
+
+#home{
+    background-image: url("/img/banner.jpg");
+    height: 100vh;
+}
+#home .container{
+  padding-top: 20vh;
+}
+
+/*--ABOUT--*/
+
+.line{
+    border-bottom: 2px solid #062031; 
+    
+}
+  #srijan{
+    background-image: url("/img/srijan.png");
+  }
+
+  #tec{
+    background-image: url("/img/bech.jpg");
+  }
+
+.card{
+  transition: all 0.5s ease-out; 
+  box-shadow: 7px 7px 15px 6px rgba(0,0,0,0.65);
+
+}
+.card:hover{
+    background-image: linear-gradient(to bottom right,#051435,#2980b9);
+    margin-top: -0.5%;
+    color: #ffffff;
+}  
+
+.carousel {
+  background:#00021dd7;
+}
+
+.carousel-item {
+height: 450px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 450px;
+}
+footer{
+    color: #999999;
+    background-color: #010527d7;;
+}
+footer ul {
+    list-style: none;
+}
+footer a{
+  
+    text-decoration: none;
+    color:#cccccc
+}
+footer a:hover{
+    text-decoration: none;
+    color: #7c7d8e;
+}
