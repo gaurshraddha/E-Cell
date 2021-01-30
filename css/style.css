@@ -50,7 +50,7 @@ nav li a:hover{
 }
 
 #home{
-    background-image: url("/img/banner.jpg");
+    background-image: url("../img/banner.jpg");
     height: 100vh;
 }
 #home .container{
@@ -64,11 +64,11 @@ nav li a:hover{
     
 }
   #srijan{
-    background-image: url("/img/srijan.png");
+    background-image: url("../img/srijan.png");
   }
 
   #tec{
-    background-image: url("/img/bech.jpg");
+    background-image: url("../img/bech.jpg");
   }
 
 .card{
